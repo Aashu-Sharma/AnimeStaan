@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
-import second from '../cards/AnimeCard'
-import {fetchTopAiring} from '../../features/AnimeSlice'
+import AnimeCard from '../cards/AnimeCard.jsx'
+import {fetchTopAiring} from '../../features/AnimeSlice.js'
 import { useSelector, useDispatch } from 'react-redux';
 
 function TopAiringAll() {
