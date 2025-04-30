@@ -1,7 +1,7 @@
 import React, {useRef} from "react";
-import PopularAnimes from "./InsideHomepage/PopularAnimes"
-import TopAiring from "./InsideHomepage/TopAiring";
-import TopUpcoming from "./InsideHomepage/TopUpcoming";
+import PopularAnimes from "./InsideHomepage/PopularAnimes.jsx"
+import TopAiring from "./InsideHomepage/TopAiring.jsx";
+import TopUpcoming from "./InsideHomepage/TopUpcoming.jsx";
 
 function HomePage() {
     const popularAnimesRef = useRef();

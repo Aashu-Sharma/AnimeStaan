@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import {Link} from 'react-router-dom'
 import {useSelector, useDispatch} from 'react-redux'
-import TopAnimeCard from '../Cards/TopAnimeCard'
+import TopAnimeCard from '../cards/TopAnimeCard'
 import { fetchTopAnimes } from '../../features/AnimeSlice';
 
 function PopularAnimes({scRef, scRight, scLeft}) {

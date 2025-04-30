@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import AnimeCard from '../Cards/AnimeCard';
+import second from '../cards/AnimeCard'
 import {fetchTopAiring} from '../../features/AnimeSlice'
 import { useSelector, useDispatch } from 'react-redux';
 

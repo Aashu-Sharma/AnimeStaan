@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import {useDispatch, useSelector} from 'react-redux'
 import {useParams, useNavigate} from 'react-router-dom';
-import {fetchAnimeDetails, addFavourites, removeFavourites} from '../features/AnimeSlice'
+import {fetchAnimeDetails, addFavourites, removeFavourites} from '../features/AnimeSlice.js'
 
 function AnimeDetails() {
     const {id} = useParams();
