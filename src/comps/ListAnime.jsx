@@ -1,8 +1,8 @@
 import React, {useEffect} from "react";
 import {useSearchParams} from 'react-router-dom'
 import { useSelector, useDispatch } from "react-redux";
-import AnimeCard from "./cards/AnimeCard";
-import { fetchAnimeBySearch } from "../features/AnimeSlice";
+import AnimeCard from "./cards/AnimeCard.jsx";
+import { fetchAnimeBySearch } from "../features/AnimeSlice.js";
 
 function ListAnime() {
     const searchResults = useSelector((state) => state.anime.searchResults);
